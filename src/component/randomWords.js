@@ -15,8 +15,10 @@ var PROGRAMING_LANG = [
 	"ruby"
 ];
 
-function randomWords() {
+/*function randomWords() {
+	console.log(PROGRAMING_LANG[Math.floor(Math.random() * PROGRAMING_LANG.length)])
 	return PROGRAMING_LANG[Math.floor(Math.random() * PROGRAMING_LANG.length)];
-}
 
-export { randomWords };
+}*/
+
+export { PROGRAMING_LANG };
